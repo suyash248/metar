@@ -50,7 +50,7 @@ Now you can access the application by visiting ```http://localhost:8080``` (defa
 
 Station codes can be found at http://tgftp.nws.noaa.gov/data/observations/metar/stations
 
-> Assumption: Assumint that metar endpoint will return reponse in foillowing format - 
+> Assumption: Assuming that metar endpoint will return reponse in foillowing format - 
 ```sh
 2001/11/17 15:38
 KSGS 171538Z AUTO 19005KT 7SM CLR M01/M05 A3021 RMK AO2
