@@ -18,7 +18,6 @@ $ virtualenv .environment
 $ source .environment/bin/activate
 ```
 
-
 3. Add project to ```PYTHONPATH``` as 
 
 ```sh 
@@ -31,7 +30,7 @@ $ export PYTHONPATH="$PYTHONPATH:." # . corresponds to current directory(project
 $ pip install -r requirements.txt
 ```
 
-4. Then run app.py as  
+4. Then run ```app.py``` as  
 
 ```sh
 $ python app.py
