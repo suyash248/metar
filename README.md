@@ -49,3 +49,9 @@ Now you can access the application by visiting ```http://localhost:8080``` (defa
 | GET | {host}/metar/info?scode={station_code}&nocache={0 or 1} | NA | Returns station weather report |
 
 Station codes can be found at http://tgftp.nws.noaa.gov/data/observations/metar/stations
+
+> Assumption: Assumint that metar endpoint will return reponse in foillowing format - 
+```sh
+2001/11/17 15:38
+KSGS 171538Z AUTO 19005KT 7SM CLR M01/M05 A3021 RMK AO2
+```
