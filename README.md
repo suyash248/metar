@@ -45,8 +45,8 @@ Now you can access the application by visiting ```http://localhost:8080``` (defa
 | Method | URL | Body | Description |
 | ------ | --- | ---- | ----------- |
 | GET | {host} | NA | Homepage |
-| GET | {host}/metar/ping | NA | ```{"data": "pong"}``` |
-| GET | {host}/metar/info?scode={station_code}&nocache={0 or 1} | NA | Returns station weather report |
+| GET | {host}/metar/ping | NA | <pre>{<br/> "data": "pong"<br/>}</pre> |
+| GET | {host}/metar/info?scode={station_code}&nocache={0 or 1} | NA | Station report as - <pre>{<br/> "data": {<br/> "station": "KSGS",<br/> "last_observation": "2017/04/11 at 16:00 GMT",<br/> "temperature": "-1 C (30 F)",<br/> "wind": "S at 6 mph (5 knots)"<br/> }<br/>}</pre> |
 
 Station codes can be found at http://tgftp.nws.noaa.gov/data/observations/metar/stations
 
