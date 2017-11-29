@@ -4,12 +4,7 @@
 Python 2.7+, pip, Redis
 
 ### How to run?
-1. Copy ```settings.sample.py``` and create ```settings.py```. Default configuration/settings will suffice in most of the cases. 
-Edit the configuration if required.
-
-> Note: step-1 is required because ```settings.py``` contains configurations & settings which can vary platform-to-plaform.
-
-2. Move to ```<project-dir>```, create virual environment and then activate it as
+1. Move to ```<project-dir>```, create virual environment and then activate it as
 
 
 ```sh
@@ -17,6 +12,11 @@ $ cd <project-dir>
 $ virtualenv .environment
 $ source .environment/bin/activate
 ```
+
+2. Copy ```settings.sample.py``` and create ```settings.py```. Default configuration/settings will suffice in most of the cases. 
+Edit the configuration if required.
+
+> Note: step-1 is required because ```settings.py``` contains configurations & settings which can vary platform-to-plaform.
 
 3. Add project to ```PYTHONPATH``` as 
 
